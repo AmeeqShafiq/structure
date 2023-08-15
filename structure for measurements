@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+struct room
+{
+	float length;
+	float width;
+
+	
+};
+int main()
+{
+	room Roomone;
+	room Roomtwo;
+	room Roomthree;
+	
+	Roomone.length;
+	Roomone.width;
+	
+	Roomtwo.length;
+	Roomtwo.width;
+	
+	Roomthree.length;
+	Roomthree.width;
+	
+	cout<<"Enter length";
+	cin>>Roomone.length;
+	
+	cout<<"Enter width";
+	cin>>Roomone.width;
+	
+		cout<<"Area is "<<Roomone.length*Roomone.width<<endl;
+}
